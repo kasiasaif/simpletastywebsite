@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Barlow Condensed', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,100&display=swap');
+/* font-family: 'Urbanist', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Urbanist:ital,wght@1,100&display=swap');
+/* font-family: 'Open Sans Condensed', sans-serif; */
+/* font-family: 'Urbanist', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap'); */
+/* font-family: 'Rajdhani', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+/* font-family: 'Rajdhani', sans-serif; */
+*{
+    margin: 0 px;
+    padding: 2px;
+    box-sizing: border-box;
+
+    
+    
+}
+
+.logo{
+    height: 140px;
+    width: 250px;
+    cursor: pointer;
+    margin-right:auto;
+    
+
+}
+li,a{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    font-family: 'Dancing Script', cursive;
+    
+    
+    
+    
+}
+.nav_links{
+    list-style: none;
+    
+    
+
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 33px;
+    
+    
+}
+.nav_links li a{
+    transition: all 0.3s case 0s;
+    font-size: 30px;
+    color: rgb(247, 243, 244);
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav_links li a:hover{
+    color: #e43a1c;
+}
+
+
+.quote{
+    color:white;
+    width: 50%;
+    height: 20%;      
+    margin-top: 2%;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+.color{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.title{
+    font-family: 'Dancing Script', cursive;
+    
+
+
+}
+.home{
+    width: 100%;
+    height: 100%;
+    background: url(green.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+.salad {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: xx-large;
+    /* background-color: teal; */
+    margin: 50px;
+    padding: 5px; 
+    background: url(thumb2-4k-brown-wooden-texture-close-up-wooden-textures-brown-backgrounds.jpg)no-repeat center center fixed;
+    background-size: cover;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+}
+.dessert{
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: xx-large;
+    /* background-color: teal; */
+    margin: 50px;
+    padding: 5px;  
+    background: url(thumb2-4k-brown-wooden-texture-close-up-wooden-textures-brown-backgrounds.jpg)no-repeat center center fixed;
+    background-size: cover;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+
+.name{
+    text-decoration: underline ;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 15px;
+    float: right;
+    right: 18.5%;
+    left: 90%;
+    max-width: 50px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgba(253, 253, 253, 0.2);
+    background-color: rgb(245, 237, 237);
+    padding: .5px;
+    border-radius: 4px;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #e43a1c;
+}
+
+.img{
+    border-radius: 50px;
+}
+.top{
+margin-left: 60%;
+}
